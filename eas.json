@@ -1,7 +1,7 @@
 {
   "cli": {
-    "version": ">= 20.5.1",
-    "appVersionSource": "remote"
+    "version": ">= 16.0.0",
+    "appVersionSource": "local"
   },
   "build": {
     "preview": {
@@ -9,14 +9,17 @@
       "android": {
         "buildType": "apk"
       },
-      "node": "20.18.0"
+      "env": {
+        "NODE_VERSION": "20.18.0"
+      }
     },
     "production": {
-      "autoIncrement": true,
       "android": {
         "buildType": "app-bundle"
       },
-      "node": "20.18.0"
+      "env": {
+        "NODE_VERSION": "20.18.0"
+      }
     }
   },
   "submit": {
