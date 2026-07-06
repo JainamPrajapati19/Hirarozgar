@@ -1,8 +1,13 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "HiraRozgar",
+    "slug": "hirarozgar",
     "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "deb8e6db-979d-4173-9726-21c88a8719ba"
+      }
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -16,7 +21,8 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.jainam1908steam.hirarozgar"
     },
     "web": {
       "favicon": "./assets/favicon.png"
